@@ -6,10 +6,7 @@ Wix.getSiteInfo(function onSuccess(siteInfo) {
 
 	siteTitle= siteInfo.siteTitle;
 	referrer= siteInfo.referrer;
-	url= siteInfo.url;
-});
-
-$.w._ycc.__internal.api= {
+	url= siteInfo.url;__internal.api= {
 
 	getPageTitle: function() {
 		return siteTitle;
